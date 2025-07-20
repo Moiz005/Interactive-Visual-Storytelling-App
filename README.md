@@ -19,7 +19,7 @@ A multimodal AI app that generates images with Stable Diffusion, stories with GP
 
 - **Google Colab**: Run the app in a Colab notebook with a GPU runtime for faster processing.
 - **OpenAI API Key**: Set `OPENAI_API_KEY` in Colab's Secrets (left sidebar, key icon).
-- **Hugging Face Token** (optional): Required for Stable Diffusion model access. Run:
+- **Hugging Face Token**: Required for Stable Diffusion model access. Run:
   ```python
   from huggingface_hub import login
   login()  # Enter your Hugging Face token
@@ -27,7 +27,7 @@ A multimodal AI app that generates images with Stable Diffusion, stories with GP
 
 ## Usage
 
-1. Open the Colab notebook (`main.ipynb`) or Python script (`generate_story.py`).
+1. Open the Colab notebook (`main.ipynb`) or Python script (`main.py`).
 2. Run the script to launch the Gradio interface.
 3. Enter a text prompt (e.g., "A lone explorer in a mystical desert at twilight").
 4. View the generated image, story, and play the audio narration in the Gradio UI.
